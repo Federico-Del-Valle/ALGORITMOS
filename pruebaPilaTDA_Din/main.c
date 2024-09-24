@@ -8,24 +8,7 @@ int main()
 }
 
 
-void probarIngresarYMostrarProd(void)
-{
-    tprod prod;
-    int cant = 0;
 
-    puts("Probando ingresar productos y msotrar productos. \n");
-    printf("%-20s %-30s\n", "Producto", "Descripcion");
-
-    if(ingresarProd(&prod))
-        mostrarProd(NULL);
-    do
-    {
-        mostrarProd(&prod);
-        cant++;
-    }while(ingresarProd(&prod));
-
-    fprintf(stdout,"\nSe mostraron %d productos. \n\n", cant);
-}
 
 void probarIngresarYMostrarTexto(void)
 {
