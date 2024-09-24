@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1724704187 source:c:\users\feded\onedrive\documentos\facultad\algoritmos\pruebapilatda_din\main.c
+	"main.h"
+
+1724283625 c:\users\feded\onedrive\documentos\facultad\algoritmos\pruebapilatda_din\main.h
+	<stdio.h>
+	"../lineasDeTexto/lineaTexto.h"
+	"../productos/productos.h"
+
+1724703868 source:c:\users\feded\onedrive\documentos\facultad\algoritmos\lineasdetexto\lineatexto.c
+	"../lineasDeTexto/lineaTexto.h"
+	<stdio.h>
+
+1724290658 source:c:\users\feded\onedrive\documentos\facultad\algoritmos\productos\productos.c
+	"productos.h"
+
+1724703964 c:\users\feded\onedrive\documentos\facultad\algoritmos\lineasdetexto\lineatexto.h
+
+1724290282 c:\users\feded\onedrive\documentos\facultad\algoritmos\productos\productos.h
+	<stdio.h>
+	<stdlib.h>
+
