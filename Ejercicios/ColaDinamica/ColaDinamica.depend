@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1745283736 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\coladinamica\main.c
+	"ColaD.h"
+
+1745282677 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\coladinamica\colad.h
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1745283515 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\coladinamica\colad.c
+	"ColaD.h"
+
