@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1745716593 source:c:\users\feded\onedrive\documentos\facultad\algoritmos\cursada_itu\algoritmos\ejerciciosurl\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Pila.h"
+
+1745716240 c:\users\feded\onedrive\documentos\facultad\algoritmos\cursada_itu\algoritmos\ejerciciosurl\pila.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1745716088 source:c:\users\feded\onedrive\documentos\facultad\algoritmos\cursada_itu\algoritmos\ejerciciosurl\pila.c
+	"Pila.h"
+
