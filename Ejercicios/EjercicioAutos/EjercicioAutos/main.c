@@ -1,5 +1,4 @@
-#include<ColaD.h>
-
+#include "ColaD.h"
 
 
 // ==== PRIMITIVAS A IMPLEMENTAR (usar las que hice anteriormente) ====
@@ -62,9 +61,8 @@ int main() {
                 break;
 
             case 4:
-                printf("El tiempo de espera aproximado es: ...\n");
+                printf("El tiempo de espera aproximado es: %d minutos\n", contarTiempo(&colaLavadero));
                 break;
-
             case 5:
                 vaciarCola(&colaLavadero);
                 printf("Cola vaciada.\n");

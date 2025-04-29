@@ -3,7 +3,7 @@
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>
-
+#define minimo(x,y) ((x) < (y) ? (x) : (y))
 typedef struct {
     char patente[10];
     char tipo[20];
@@ -17,8 +17,8 @@ typedef struct sNodo {
 } Nodo;
 
 typedef struct {
-    tNodo *prim;
-    tNodo *ult;
+    Nodo *prim;
+    Nodo *ult;
 } Cola;
 
 void crearCola(Cola *c);
