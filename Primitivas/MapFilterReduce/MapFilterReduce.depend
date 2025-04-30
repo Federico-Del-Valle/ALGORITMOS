@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1724091178 source:c:\users\pedro melissari\desktop\tda\mapfilterreduce\main.c
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<math.h>
+

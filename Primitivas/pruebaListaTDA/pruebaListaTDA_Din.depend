@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1724016215 source:c:\users\pedro melissari\desktop\tda\pruebalistatda_din\main.c
+	"main.h"
+
+1724014955 c:\users\pedro melissari\desktop\tda\pruebalistatda_din\main.h
+	<stdio.h>
+	"../lineasDeTexto/lineaTexto.h"
+	"../productos/productos.h"
+	"../pilaDinamica/pila.h"
+
+1724078779 c:\users\pedro melissari\desktop\tda\lineasdetexto\lineatexto.h
+	<string.h>
+	<stdio.h>
+
+1724078596 c:\users\pedro melissari\desktop\tda\productos\productos.h
+	<stdio.h>
+
+1723826554 c:\users\pedro melissari\desktop\tda\piladinamica\pila.h
+	<stdlib.h>
+	<string.h>
+
+1724078827 source:c:\users\pedro melissari\desktop\tda\lineasdetexto\lineatexto.c
+	"lineaTexto.h"
+
+1724089417 source:c:\users\pedro melissari\desktop\tda\lista\lista.c
+	"lista.h"
+
+1724089412 c:\users\pedro melissari\desktop\tda\lista\lista.h
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1724082101 source:c:\users\pedro melissari\desktop\tda\productos\productos.c
+	"productos.h"
+
+1724082235 source:c:\users\pedro melissari\desktop\tda\pruebalistatda\main.c
+	"main.h"
+
+1724016276 c:\users\pedro melissari\desktop\tda\pruebalistatda\main.h
+	<stdio.h>
+	"../lineasDeTexto/lineaTexto.h"
+	"../productos/productos.h"
+	"../lista/lista.h"
+

@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1724162390 source:c:\users\pedro melissari\desktop\tda\coladinamicacircular\cola.c
+	"cola.h"
+
+1724161656 c:\users\pedro melissari\desktop\tda\coladinamicacircular\cola.h
+	<stdlib.h>
+	<string.h>
+
+1724078827 source:c:\users\pedro melissari\desktop\tda\lineasdetexto\lineatexto.c
+	"lineaTexto.h"
+
+1724078779 c:\users\pedro melissari\desktop\tda\lineasdetexto\lineatexto.h
+	<string.h>
+	<stdio.h>
+
+1724082101 source:c:\users\pedro melissari\desktop\tda\productos\productos.c
+	"productos.h"
+
+1724078596 c:\users\pedro melissari\desktop\tda\productos\productos.h
+	<stdio.h>
+
+1723841099 source:c:\users\pedro melissari\desktop\tda\pruebacolatdacircular_din\main.c
+	"main.h"
+
+1724021818 c:\users\pedro melissari\desktop\tda\pruebacolatdacircular_din\main.h
+	<stdio.h>
+	"../lineasDeTexto/lineaTexto.h"
+	"../productos/productos.h"
+	"../colaDinamica/cola.h"
+
+1723829344 c:\users\pedro melissari\desktop\tda\coladinamica\cola.h
+	<stdlib.h>
+	<string.h>
+

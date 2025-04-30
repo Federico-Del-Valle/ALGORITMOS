@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1723843425 source:c:\users\pedro melissari\desktop\tda\colaestatica\cola.c
+	"cola.h"
+
+1723843488 c:\users\pedro melissari\desktop\tda\colaestatica\cola.h
+	<string.h>
+	<stdlib.h>
+
+1723589235 source:c:\users\pedro melissari\desktop\tda\lineasdetexto\lineatexto.c
+	"lineaTexto.h"
+
+1723588266 c:\users\pedro melissari\desktop\tda\lineasdetexto\lineatexto.h
+	<string.h>
+
+1723588187 source:c:\users\pedro melissari\desktop\tda\productos\productos.c
+	"productos.h"
+
+1723586757 c:\users\pedro melissari\desktop\tda\productos\productos.h
+	<stdio.h>
+
+1723843317 source:c:\users\pedro melissari\desktop\tda\pruebacolatda_est\main.c
+	"main.h"
+
+1723828997 c:\users\pedro melissari\desktop\tda\pruebacolatda_est\main.h
+	<stdio.h>
+	"../lineasDeTexto/lineaTexto.h"
+	"../productos/productos.h"
+	"../colaEstatica/cola.h"
+

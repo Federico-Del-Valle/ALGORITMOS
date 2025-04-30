@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1724078827 source:c:\users\pedro melissari\desktop\tda\lineasdetexto\lineatexto.c
+	"lineaTexto.h"
+
+1724078779 c:\users\pedro melissari\desktop\tda\lineasdetexto\lineatexto.h
+	<string.h>
+	<stdio.h>
+
+1724725573 source:c:\users\pedro melissari\desktop\tda\pilaestatica\pila.c
+	"pila.h"
+
+1724725571 c:\users\pedro melissari\desktop\tda\pilaestatica\pila.h
+	<string.h>
+
+1724082101 source:c:\users\pedro melissari\desktop\tda\productos\productos.c
+	"productos.h"
+
+1724078596 c:\users\pedro melissari\desktop\tda\productos\productos.h
+	<stdio.h>
+
+1723594261 source:c:\users\pedro melissari\desktop\tda\pruebapilatda_est\main.c
+	"main.h"
+
+1724725544 c:\users\pedro melissari\desktop\tda\pruebapilatda_est\main.h
+	<stdio.h>
+	"../lineasDeTexto/lineaTexto.h"
+	"../productos/productos.h"
+	"../pilaEstatica/pila.h"
+

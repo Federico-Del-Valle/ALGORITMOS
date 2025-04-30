@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1724078827 source:c:\users\pedro melissari\desktop\tda\lineasdetexto\lineatexto.c
+	"lineaTexto.h"
+
+1724078779 c:\users\pedro melissari\desktop\tda\lineasdetexto\lineatexto.h
+	<string.h>
+	<stdio.h>
+
+1724176887 source:c:\users\pedro melissari\desktop\tda\listadoblementeenlazada\lista.c
+	"lista.h"
+
+1724174370 c:\users\pedro melissari\desktop\tda\listadoblementeenlazada\lista.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1724082101 source:c:\users\pedro melissari\desktop\tda\productos\productos.c
+	"productos.h"
+
+1724078596 c:\users\pedro melissari\desktop\tda\productos\productos.h
+	<stdio.h>
+
+1724176880 source:c:\users\pedro melissari\desktop\tda\pruebalistadoblementeenlazadatda\main.c
+	"main.h"
+
+1724173880 c:\users\pedro melissari\desktop\tda\pruebalistadoblementeenlazadatda\main.h
+	<stdio.h>
+	"../lineasDeTexto/lineaTexto.h"
+	"../productos/productos.h"
+	"../listaDoblementeEnlazada/lista.h"
+

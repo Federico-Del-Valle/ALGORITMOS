@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1723829806 source:c:\users\pedro melissari\desktop\tda\coladinamica\cola.c
+	"cola.h"
+
+1723829344 c:\users\pedro melissari\desktop\tda\coladinamica\cola.h
+	<stdlib.h>
+	<string.h>
+
+1723589235 source:c:\users\pedro melissari\desktop\tda\lineasdetexto\lineatexto.c
+	"lineaTexto.h"
+
+1723588266 c:\users\pedro melissari\desktop\tda\lineasdetexto\lineatexto.h
+	<string.h>
+
+1723588187 source:c:\users\pedro melissari\desktop\tda\productos\productos.c
+	"productos.h"
+
+1723586757 c:\users\pedro melissari\desktop\tda\productos\productos.h
+	<stdio.h>
+
+1723841099 source:c:\users\pedro melissari\desktop\tda\pruebacolatda_din\main.c
+	"main.h"
+
+1724021818 c:\users\pedro melissari\desktop\tda\pruebacolatda_din\main.h
+	<stdio.h>
+	"../lineasDeTexto/lineaTexto.h"
+	"../productos/productos.h"
+	"../colaDinamica/cola.h"
+
+1723841099 source:c:\users\pedro melissari\desktop\tda\prueba\pruebacolatda_din\main.c
+	"main.h"
+
+1724014315 c:\users\pedro melissari\desktop\tda\prueba\pruebacolatda_din\main.h
+	<stdio.h>
+	"../../lineasDeTexto/lineaTexto.h"
+	"../../productos/productos.h"
+	"../../colaDinamica/cola.h"
+

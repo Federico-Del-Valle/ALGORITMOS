@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1724078827 source:c:\users\pedro melissari\desktop\tda\lineasdetexto\lineatexto.c
+	"lineaTexto.h"
+
+1724078779 c:\users\pedro melissari\desktop\tda\lineasdetexto\lineatexto.h
+	<string.h>
+	<stdio.h>
+
+1724158533 source:c:\users\pedro melissari\desktop\tda\piladinamicacircular\pila.c
+	"pila.h"
+	<stdio.h>
+
+1724119165 c:\users\pedro melissari\desktop\tda\piladinamicacircular\pila.h
+	<string.h>
+	<stdlib.h>
+
+1724082101 source:c:\users\pedro melissari\desktop\tda\productos\productos.c
+	"productos.h"
+
+1724078596 c:\users\pedro melissari\desktop\tda\productos\productos.h
+	<stdio.h>
+
+1723594763 source:c:\users\pedro melissari\desktop\tda\pruebapilatdacircular_din\main.c
+	"main.h"
+
+1724118840 c:\users\pedro melissari\desktop\tda\pruebapilatdacircular_din\main.h
+	<stdio.h>
+	"../lineasDeTexto/lineaTexto.h"
+	"../productos/productos.h"
+	"../pilaDinamicaCircular/pila.h"
+
