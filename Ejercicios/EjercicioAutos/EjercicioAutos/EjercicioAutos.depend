@@ -1,12 +1,19 @@
 # depslib dependency file v1.0
-1745901084 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\ejercicios\ejercicioautos\ejercicioautos\main.c
+1746730686 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\ejercicios\ejercicioautos\ejercicioautos\main.c
 	"ColaD.h"
+	"Lavadero.h"
 
-1745887724 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\ejercicios\ejercicioautos\ejercicioautos\colad.h
+1746730490 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\ejercicios\ejercicioautos\ejercicioautos\colad.h
 	<stdlib.h>
 	<string.h>
 	<stdio.h>
 
-1745901084 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\ejercicios\ejercicioautos\ejercicioautos\colad.c
+1746730119 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\ejercicios\ejercicioautos\ejercicioautos\colad.c
 	"ColaD.h"
+
+1746730299 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\ejercicios\ejercicioautos\ejercicioautos\lavadero.h
+	"ColaD.h"
+
+1746730248 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\ejercicios\ejercicioautos\ejercicioautos\lavadero.c
+	"Lavadero.h"
 

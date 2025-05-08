@@ -41,33 +41,6 @@ int sacarDeCola(Cola* c, void* dato, unsigned tamDato)
     return 1;
 }
 
-int contarCola(Cola* c)
-{
-    int cont = 0;
-    Nodo* aux = c->prim;
-    while(aux)
-    {
-        cont++;
-        aux = aux->sig;
-    }
-    return cont;
-}
-
-int contarTiempo(const Cola* c)
-{
-    int tiempoTotal = 0;
-    Nodo* act = c->prim;
-    Vehiculo v;
-
-    while(act)
-    {
-        memcpy(&v, act->dato, minimo(sizeof(Vehiculo), act->tamDato));
-        tiempoTotal += v.tiempo;
-        act = act->sig;
-    }
-    return tiempoTotal;
-}
-
 void vaciarCola(Cola* c)
 {
     while(c->prim)

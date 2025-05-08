@@ -1,5 +1,5 @@
 #include "ColaD.h"
-
+#include "Lavadero.h"
 
 // ==== PRIMITIVAS A IMPLEMENTAR (usar las que hice anteriormente) ====
 // ==== esto va en un archivo .h ====
@@ -12,8 +12,8 @@ funcionQueCuentaEltiempo(...)
 
 // ==== MAIN ====
 int main() {
-    Cola colaLavadero;
-    crearCola(&colaLavadero);
+    Lavadero lavadero;
+    inicializarLavadero(&lavadero);
     int opcion;
     Vehiculo v;
 
@@ -43,34 +43,34 @@ int main() {
                 scanf("%d", &v.tiempo);
                 getchar();
 
-                if(ponerEnCola(&colaLavadero, &v, sizeof(Vehiculo)))
+                if(encolarAuto(&lavadero, &v))
                     printf("Vehiculo encolado con exito.\n");
                 else
                     printf("Error: no se pudo encolar.\n");
                 break;
 
             case 2:
-                if(sacarDeCola(&colaLavadero, &v, sizeof(Vehiculo)))
+                if(atenderAuto(&lavadero, &v))
                     printf("Atendiendo: %s - %s - %d min\n", v.patente, v.tipo, v.tiempo);
                 else
                     printf("No hay autos en espera.\n");
                 break;
 
             case 3:
-                printf("Autos en cola: %d\n", contarCola(&colaLavadero));
+                printf("Autos en cola: %d\n", contarCola(&lavadero));
                 break;
 
             case 4:
-                printf("El tiempo de espera aproximado es: %d minutos\n", contarTiempo(&colaLavadero));
+                printf("El tiempo de espera aproximado es: %d minutos\n", contarTiempo(&lavadero));
                 break;
             case 5:
-                vaciarCola(&colaLavadero);
+                vaciarLavadero(&lavadero);
                 printf("Cola vaciada.\n");
                 break;
 
             case 0:
                 printf("Cerrando el lavadero...\n");
-                vaciarCola(&colaLavadero);
+                vaciarLavadero(&lavadero);
                 break;
 
             default:
