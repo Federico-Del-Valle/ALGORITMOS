@@ -1,24 +1,37 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include"pilaDinamica.h"
+#include"esParentesis.h"
+
 
 int main()
 {
-    char cadena[100] = [];
+    printf("---INICIA PARCIAL---\n");
 
-    FILE* archivo = fopen("texto.txt", "r");
-
-    if(!archivo)
+    char cadena[100];
+    printf("Ingrese una cadena para guardar en el archivo:\n  ");
+    fgets(cadena,100,stdin);
+    cadena[strcspn(cadena,"\n")] = '\0';
+    FILE* arch = fopen("parentesis.txt", "w");
+    if(!arch)
     {
-        printf("No se pudo abrir el archivo");
-        return 0;
+        printf("Error al abrir el archivo");
+        return 1;
+    }
+    fprintf(arch,"%s", cadena);
+    fclose(arch);
+    Pila p;
+    crearPila(&p);
+    if(chequearSiEsParentizado("parentesis.txt",&p))
+    {
+        printf("Esta equilibrado");
+    }
+    else
+    {
+        printf("No esta equilibrado");
     }
 
-    fgets(cadena,100,archivo);
 
-    for(int i = 0; cadena[i] != '\0'; i++)
-    {
-
-    }
 
 
 }

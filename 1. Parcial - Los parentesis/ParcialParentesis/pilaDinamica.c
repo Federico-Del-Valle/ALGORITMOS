@@ -5,11 +5,16 @@ void crearPila(Pila* p)
     *p= NULL;
 }
 
+int pilaVacia(const Pila* p)
+{
+    return *p == NULL;
+}
+
 void vaciarPila(Pila* p)
 {
     while(*p)
     {
-        Nodo* aux = p;
+        Nodo* aux = *p;
         *p = aux->sig;
         free(aux->dato);
         free(aux);

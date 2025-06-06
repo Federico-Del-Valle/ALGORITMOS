@@ -31,13 +31,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="esParentesis.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="esParentesis.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="pilaEstatica.c">
+		<Unit filename="pilaDinamica.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="pilaEstatica.h" />
+		<Unit filename="pilaDinamica.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

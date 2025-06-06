@@ -3,6 +3,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include <string.h>
+#define minimo(x,y)  (( x ) <= (y) ? (x) : (y) )
+
 
 
 typedef struct Nodo
@@ -12,16 +14,18 @@ typedef struct Nodo
     struct Nodo* sig;
 }Nodo;
 
-typedef *Nodo Pila;
+typedef Nodo* Pila;
 
 void crearPila(Pila*);
 void vaciarPila(Pila*);
 
 int pilaLlena(Pila*);
-int pilaVacia(Pila*);
+int pilaVacia( const Pila*);
 
 
-int verTope(Pila*, void*, unsigned);
+int verTope(const Pila*, void*, unsigned);
+int ponerEnpila(Pila*, void*, unsigned);
+int sacarDePila(Pila*, void*, unsigned);
 
 
 
