@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1749251765 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\1. parcial - los parentesis\parcialparentesis\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilaDinamica.h"
+	"esParentesis.h"
+
+1749252895 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\1. parcial - los parentesis\parcialparentesis\esparentesis.c
+	"esParentesis.h"
+	"pilaDinamica.h"
+
+1749249998 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\1. parcial - los parentesis\parcialparentesis\esparentesis.h
+	"pilaDinamica.h"
+
+1749252964 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\1. parcial - los parentesis\parcialparentesis\piladinamica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1749253068 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\1. parcial - los parentesis\parcialparentesis\piladinamica.c
+	"pilaDinamica.h"
+
