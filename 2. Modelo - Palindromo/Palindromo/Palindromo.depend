@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1749341649 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\2. modelo - palindromo\palindromo\palindromo.c
+	<stdio.h>
+	"pilaDinamica.h"
+	"palindromo.h"
+
+1749341894 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\2. modelo - palindromo\palindromo\piladinamica.h
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1749341575 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\2. modelo - palindromo\palindromo\palindromo.h
+	"pilaDinamica.h"
+
+1749341961 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\2. modelo - palindromo\palindromo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilaDinamica.h"
+	"palindromo.h"
+
+1749341884 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\2. modelo - palindromo\palindromo\piladinamica.c
+	"pilaDinamica.h"
+
