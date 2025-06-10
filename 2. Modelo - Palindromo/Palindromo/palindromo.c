@@ -10,7 +10,7 @@
 
 int leerArchEnPila(const char arch[], Pila* p)
 {
-    int i = 0;
+
     char linea[100];
 
     FILE* archivo = fopen(arch, "r");
@@ -21,19 +21,50 @@ int leerArchEnPila(const char arch[], Pila* p)
     }
     while(fgets(linea, 100, archivo))
     {
-        printf("%s", linea);
+        int i = 0;
+        while(linea[i] != '\0')
+        {
+            if(linea[i]!= ' ' && linea[i] != '\n')
+            {
+                ponerEnPila(p, &linea[i], sizeof(char));
+            }
+            i++;
+        }
     }
-    while(linea[i] != '\0')
+    fclose(archivo);
+
+    return 1;
+}
+
+int esPalindromo(const char nombre[], Pila* p)
+{
+    FILE* archivo = fopen(nombre, "r");
+    if(!archivo)
     {
-        if(linea[i]!= ' ')
-        {
-            ponerEnPila(&p, linea[i], sizeof(char));
-            i++;
-        }
-        else
-        {
-            i++;
-        }
+        printf("\nError al abrir el archivo");
+        return 0;
     }
+    char c;
+    char tope;
+
+    while( (c =fgetc(archivo)) != EOF)
+    {
+        if(c != ' ')
+        {
+            verTope(p, &tope, sizeof(char));
+            if(tolower(c) == tolower(tope))
+            {
+                sacarDePila(p, &c, sizeof(char));
+            }
+            else
+            {
+                fclose(archivo);
+                return 0;
+            }
+        }
+
+
+    }
+    fclose(archivo);
     return 1;
 }
