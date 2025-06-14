@@ -8,7 +8,8 @@ typedef struct Nodo
     unsigned tamDato;
     struct Nodo* sig;
 }Nodo;
-typedef struct Cola
+
+typedef struct
 {
     Nodo* pri;
     Nodo* ult;

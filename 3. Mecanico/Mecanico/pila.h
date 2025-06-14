@@ -2,14 +2,14 @@
 #define PILA_H_INCLUDED
 #define minimo(x,y) ((x) < (y) ? (x) : (y))
 
-typedef struct Nodo
+typedef struct NodoPila
 {
     void* dato;
     unsigned tamDato;
-    struct Nodo* sig;
-}Nodo;
+    struct NodoPila* sig;
+}NodoPila;
 
-typedef Nodo* Pila;
+typedef NodoPila* Pila;
 
 void crearPila(Pila* p);
 void vaciarPila(Pila* p);

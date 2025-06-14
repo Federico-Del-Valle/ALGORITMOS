@@ -18,7 +18,7 @@ void vaciarPila(Pila* p)
 {
     while(*p)
     {
-        Nodo* aux = *p;
+        NodoPila* aux = *p;
         *p = aux->sig;
         free(aux->dato);
         free(aux);
@@ -27,8 +27,8 @@ void vaciarPila(Pila* p)
 
 int ponerEnPila(Pila* p, void* dato, unsigned tamDato)
 {
-    Nodo* nuevo;
-    if((nuevo = malloc(sizeof(Nodo)))== NULL || (nuevo->dato = malloc(sizeof(tamDato))) == NULL)
+    NodoPila* nuevo;
+    if((nuevo = malloc(sizeof(NodoPila)))== NULL || (nuevo->dato = malloc(sizeof(tamDato))) == NULL)
     {
         free(nuevo);
         return 0;
@@ -47,7 +47,7 @@ int sacarDePila(Pila* p, void* dato, unsigned tamDato)
     {
         return 0;
     }
-    Nodo* aux = *p;
+    NodoPila* aux = *p;
     memcpy(dato, aux->dato, minimo(tamDato, aux->tamDato));
     *p = aux->sig;
     free(aux->dato);
