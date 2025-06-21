@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1750518313 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\4. parcial - renata-1c-tarde\parcial\lote.c
+
+1750530221 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\4. parcial - renata-1c-tarde\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+
