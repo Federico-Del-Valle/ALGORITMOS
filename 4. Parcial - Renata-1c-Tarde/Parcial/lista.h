@@ -21,8 +21,9 @@ int sacarDeLista(Lista* p, void* dato, unsigned tamDato);
 
 int OrdenarLista(Lista* p, int(*Comparar)(const void*, const void*));
 
-int insertarOrdenado(Lista* p, void* dato, unsigned tamDato, int(*Comparar)(const void*, const void*),
-                     int(*Acumular)(const void*, const void*));
+int insertarOrdenado(Lista* lista, const void* d, unsigned cantBytes,
+                 int(*Comparar)(const void*, const void*),
+                 int(*Acumular)(void**, unsigned*, const void*, unsigned));
 
 
 #endif // LISTA_H_INCLUDED

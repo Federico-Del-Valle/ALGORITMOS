@@ -1,4 +1,5 @@
 #include "lista.h"
+#define minimo(x,y) (((x) <= (y)) ? (x) : (y))
 
 void crearLista(Lista* p)
 {
@@ -54,33 +55,48 @@ int ponerAlFinal(Lista* p, void* dato, unsigned tamDato)
     return 1;
 }
 
-int ponerEnOrden(Lista* lista, const void* d, unsigned cantBytes,
+int insertarOrdenado(Lista* lista, const void* d, unsigned cantBytes,
                  int(*Comparar)(const void*, const void*),
                  int(*Acumular)(void**, unsigned*, const void*, unsigned))
 {
     Nodo* nuevo;
 
-    while(*lista && Comparar((*lista)->info, d) < 0)
+    while(*lista && Comparar((*lista)->dato, d) < 0)
         lista = &(*lista)->sig;
 
-    if(*lista && Comparar((*lista)->info, d) == 0)
+    if(*lista && Comparar((*lista)->dato, d) == 0)
     {
         if(Acumular)
-            if(!Acumular(&(*lista)->info, &(*lista)->tamInfo, d, cantBytes))
+            if(!Acumular(&(*lista)->dato, &(*lista)->tamDato, d, cantBytes))
                 return 0;
         return 2;
     }
 
-    if((nuevo = malloc(sizeof(Nodo))) == NULL || (nuevo->info = malloc(cantBytes)) == NULL)
+    if((nuevo = malloc(sizeof(Nodo))) == NULL || (nuevo->dato = malloc(cantBytes)) == NULL)
     {
         free(nuevo);
         return 0;
     }
 
-    memcpy(nuevo->info, d, cantBytes);
-    nuevo->tamInfo = cantBytes;
+    memcpy(nuevo->dato, d, cantBytes);
+    nuevo->tamDato = cantBytes;
     nuevo->sig = *lista;
     *lista = nuevo;
+
+    return 1;
+}
+
+int sacarDeLista(Lista* p, void* dato, unsigned tamDato)
+{
+    Nodo* aux = *p;
+    if(aux == NULL)
+    {
+        return 0;
+    }
+    *p = aux->sig;
+    memcpy(dato, aux->dato, minimo(tamDato, aux->tamDato));
+    free(aux->dato);
+    free(aux);
 
     return 1;
 }

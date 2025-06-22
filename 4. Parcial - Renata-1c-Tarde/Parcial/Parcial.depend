@@ -1,7 +1,21 @@
 # depslib dependency file v1.0
-1750518313 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\4. parcial - renata-1c-tarde\parcial\lote.c
+1750616280 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\4. parcial - renata-1c-tarde\parcial\lote.c
+	"lote.h"
 
-1750530221 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\4. parcial - renata-1c-tarde\parcial\main.c
+1750616236 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\4. parcial - renata-1c-tarde\parcial\main.c
 	<stdio.h>
 	<stdlib.h>
+	"lote.h"
+
+1750614325 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\4. parcial - renata-1c-tarde\parcial\lista.c
+	"lista.h"
+
+1750609255 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\4. parcial - renata-1c-tarde\parcial\lista.h
+	"lote.h"
+
+1750615763 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\4. parcial - renata-1c-tarde\parcial\lote.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"lista.h"
 
