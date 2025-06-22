@@ -16,14 +16,16 @@ typedef struct
 void procesarArch(const char arch[], int por)
 {
     FILE* archivo = fopen(arch, "rb");
-    if(!archivo)
+    FILE* archivoAprobados = fopen("LotesAprobados.txt", "w");
+    FILE* archivoObservados = fopen("LotesObservados.txt", "w");
+    if(!archivo || !archivoObservados || !archivoAprobados)
     {
         printf("\nError al abrir el archivo %s", arch);
         return;
     }
     Lista listaOK;
     crearLista(&listaOK);
-    Lista (&listaFALLA);
+    Lista listaFALLA;
     crearLista(&listaFALLA);
 
     int total = 0;
@@ -31,23 +33,58 @@ void procesarArch(const char arch[], int por)
     int primerRegistro = 1;
 
     Lote actual;
+    Lote anterior;
 
-    while(!feof(archivo))
+    while(fread(&actual, sizeof(actual), 1, archivo) == 1)
     {
-        fread(&actual, sizeof(actual),1, archivo);
         if(primerRegistro || strcmp(actual.codLote, anterior.codLote) == 0)
         {
             if(strcmp(actual.resultadoCtrl, "OK") == 0)
             {
-                insertarOrdenado(&listaOK, actual.idCod, compararPorId,  )
+                insertarOrdenado(&listaOK, &actual,sizeof(actual), compararPorIdProducto, NULL  );
                 cantOk++;
             }
             else
             {
-                insertarOrdenado(&listaFalla, actual);
+                insertarOrdenado(&listaFALLA, &actual, sizeof(actual), compararPorIdProducto, NULL);
             }
+            total++;
+        }
+        else
+        {
+            primerRegistro = 1;
+            if((cantOk/total)/ 100 > por)
+            {
+                printf("\nSupera el porcentaje solicitado");
+                while(sacarDeLista(&listaFALLA,actual, sizeof(Lote)))
+                {
+                    fprintf(archivoAprobados, "%d,%d,%s", actual.codLote, actual.idCod, actual.resultadoCtrl);
+                }
+                while(sacarDeLista(&listaOK,actual, sizeof(Lote)))
+                {
+                    fprintf(archivoAprobados,"%d,%d,%s", actual.codLote, actual.idCod, actual.resultadoCtrl);
+                }
+            }
+            else
+            {
+                printf("\nNo supera el porcentaje solicitado");
+                while(sacarDeLista(&listaFALLA,actual, sizeof(Lote)))
+                {
+                    fprintf(archivoAprobados, "%d,%d,%s", actual->codLote, actual->idCod, actual->resultadoCtrl);
+                }
+                while(sacarDeLista(&listaOK,actual, sizeof(Lote)))
+                {
+                    fprintf(archivoAprobados,"%d,%d,%s", actual->codLote, actual->idCod, actual->resultadoCtrl);
+                }
+            }
+            vaciarLista(&listaFALLA);
+            vaciarLista(&listaOK);
+            crearLista(&listaFALLA);
+            crearLista(&listaOK);
 
         }
+        primerRegistro = 0;
+
     }
 
 
