@@ -1,5 +1,8 @@
 #ifndef ARBOL_H_INCLUDED
 #define ARBOL_H_INCLUDED
+#include <stdio.h>
+#include <stdlib.h>
+
 
 typedef struct NodoArbol
 {
@@ -12,10 +15,12 @@ typedef struct NodoArbol
 typedef NodoArbol* Arbol;
 
 void crearArbol(Arbol* a);
-void vaciarArbol(Arbol* a);
 
-int insertarArbol(Arbol* a, void* dato, unsigned tamDato, int(*Comparar)(const void*, const void*));
+int insertarArbol(Arbol* p, void* dato, unsigned tamDato,
+                  int(*comparar)(const void*, const void*),
+                  int(*acumular)(void*, const void*));
 
+void recorrerEnOrdenRecArbolBinBusq(const Arbol * p, unsigned n, void * params, void (*accion)(void *, unsigned, unsigned, void *));
 
 
 #endif // ARBOL_H_INCLUDED

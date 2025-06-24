@@ -1,4 +1,5 @@
 #include "Pila.h"
+#include "cliente.h"
 
 #define minimo(x,y) ((x) <= (y) ? (x) : (y) )
 

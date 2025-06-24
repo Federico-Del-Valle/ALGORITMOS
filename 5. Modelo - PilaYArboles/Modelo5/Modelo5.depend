@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1750724643 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\5. modelo - pilayarboles\modelo5\cliente.c
+	"arbol.h"
+	"Pila.h"
+	"cliente.h"
+
+1750724503 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\5. modelo - pilayarboles\modelo5\arbol.c
+	"arbol.h"
+	"cliente.h"
+
+1750724715 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\5. modelo - pilayarboles\modelo5\arbol.h
+	<stdio.h>
+	<stdlib.h>
+
+1750724673 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\5. modelo - pilayarboles\modelo5\cliente.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arbol.h"
+	"Pila.h"
+
+1750722112 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\5. modelo - pilayarboles\modelo5\pila.h
+
+1750722897 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\5. modelo - pilayarboles\modelo5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol.h"
+	"cliente.h"
+	"Pila.h"
+
+1750722172 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\5. modelo - pilayarboles\modelo5\pila.c
+	"Pila.h"
+	"cliente.h"
+

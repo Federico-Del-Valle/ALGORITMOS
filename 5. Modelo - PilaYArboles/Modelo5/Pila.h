@@ -1,12 +1,11 @@
 #ifndef PILA_H_INCLUDED
 #define PILA_H_INCLUDED
-#include "cliente.h"
 
 typedef struct Nodo
 {
     void* info;
     unsigned tamInfo;
-    Nodo* sig;
+    struct Nodo* sig;
 }Nodo;
 
 typedef Nodo* Pila;

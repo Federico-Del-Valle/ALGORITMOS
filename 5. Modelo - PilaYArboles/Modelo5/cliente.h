@@ -3,6 +3,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "arbol.h"
+#include "Pila.h"
+
 
 typedef struct
 {
@@ -17,6 +20,8 @@ typedef struct
     char descripcion[100];
 }Reclamo;
 
-
-
+int procesarArch(const char nombre[], Arbol* arbol);
+void procesarArchTexto(void* info, unsigned tamInfo, unsigned nivel, void* params);
+int compararPorId(const void* dato1, const void* dato2);
+int acumular(void* dato, const void* dato2);
 #endif // CLIENTE_H_INCLUDED
