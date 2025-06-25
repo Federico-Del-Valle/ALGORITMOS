@@ -10,6 +10,22 @@ int ponerEnArbolRec(Arbol* p, void* dato, unsigned tamDato,int(*cmp)(const void*
 {
     NodoArbol* nue;
     int rc;
+    if(!*p)
+    {
+        if((nue = malloc(sizeof(NodoArbol))) == NULL || (nue->info = malloc(tamDato)) == NULL)
+        {
+            printf("\nERROR");
+            free(nue);
+            return 0;
+        }
+        memcpy(nue->info, dato, tamDato);
+        nue->tamInfo = tamDato;
+        nue->der =NULL;
+        nue->izq = NULL;
+        *p = nue;
+
+        return 1;
+    }
 
     while(*p)
     {
@@ -41,8 +57,8 @@ int ponerEnArbolRec(Arbol* p, void* dato, unsigned tamDato,int(*cmp)(const void*
 
 int compararPorDni(const void* dato1, const void* dato2)
 {
-    const Persona* persona = (Persona*)dato1;
-    const Persona* persona2 = (Persona*)dato2;
+    const Persona* persona = (const Persona*)dato1;
+    const Persona* persona2 = (const Persona*)dato2;
 
     return persona->dni - persona2->dni;
 }
@@ -53,7 +69,7 @@ void recorrerEnOrden(Arbol* p, unsigned n, int(*accion)(const void*,unsigned, co
     if(!*p)
         return;
     recorrerEnOrden(&(*p)->izq,n+1,accion);
-    accion((*p)->info,(*p)->tamInfo ,n);
+    accion((*p)->info,(*p)->tamInfo ,NULL);
     recorrerEnOrden(&(*p)->der, n+1, accion);
 }
 

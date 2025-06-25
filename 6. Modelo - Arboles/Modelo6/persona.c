@@ -14,7 +14,7 @@ int cargarArbol(Arbol* a, const char nombre[])
 
     while(fread(&persona, sizeof(Persona),1, arch) == 1)
     {
-        ponerEnArbolRec(&a,&persona, sizeof(Persona), compararPorDni, NULL);
+        ponerEnArbolRec(a,&persona, sizeof(Persona), compararPorDni, NULL);
     }
     fclose(arch);
     return 1;
@@ -45,7 +45,7 @@ int eliminarDni(Arbol* p, int dni)
             void* nuevoDato = malloc((*reem)->tamInfo);
             memcpy(nuevoDato, (*reem)->info,(*reem)->tamInfo);
             free(elim->info);
-            return eliminarDni(*reem, ((Persona*)nuevoDato)->dni);
+            return eliminarDni(reem, ((Persona*)nuevoDato)->dni);
         }
         free(elim->info);
         free(elim);

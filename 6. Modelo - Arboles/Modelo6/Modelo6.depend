@@ -21,3 +21,25 @@
 	"arbol.h"
 	"persona.h"
 
+1750853892 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\6. modelo - arboles\modelo6\arbol.c
+	"arbol.h"
+	"persona.h"
+
+1750851982 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\6. modelo - arboles\modelo6\arbol.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1750851982 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\6. modelo - arboles\modelo6\persona.h
+	"arbol.h"
+
+1750855057 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\6. modelo - arboles\modelo6\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol.h"
+	"persona.h"
+
+1750855294 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\6. modelo - arboles\modelo6\persona.c
+	"arbol.h"
+	"persona.h"
+

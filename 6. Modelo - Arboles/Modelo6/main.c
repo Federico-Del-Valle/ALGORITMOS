@@ -10,9 +10,9 @@ int main()
     Persona personas[] = {
         {43200123, "Ana", 25},
         {40100234, "Luis", 32},
-        {45111222, "Sofía", 28},
+        {45111222, "Sofia", 28},
         {42000333, "Diego", 21},
-        {40000111, "María", 30},
+        {40000111, "Maria", 30},
     };
     FILE* arch = fopen("personas.dat","wb");
     if(!arch)
@@ -26,7 +26,7 @@ int main()
     crearArbol(&arbolPersonas);
 
 
-
+    int dni;
     int op;
 
     do
@@ -48,7 +48,9 @@ int main()
             recorrerEnOrden(&arbolPersonas,0,mostrarPersona);
             break;
         case 3:
-            eliminarDni(&arbolPersonas, 0);
+            printf("\nIngrese un dni");
+            scanf("%d", &dni);
+            eliminarDni(&arbolPersonas, dni);
             break;
         case 5:
             break;
