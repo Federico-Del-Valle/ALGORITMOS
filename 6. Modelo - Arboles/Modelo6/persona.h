@@ -10,4 +10,11 @@ typedef struct
 }Persona;
 
 
+int cargarArbol(Arbol* a, const char nombre[]);
+int eliminarDni(Arbol*, int);
+
+
+
+
+
 #endif // PERSONA_H_INCLUDED

@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1750823964 source:c:\users\feded\onedrive\documentos\facultad\algoritmos\6. modelo - arboles\modelo6\arbol.c
+	"arbol.h"
+	"persona.h"
+
+1750823442 source:c:\users\feded\onedrive\documentos\facultad\algoritmos\6. modelo - arboles\modelo6\persona.c
+	"arbol.h"
+	"persona.h"
+
+1750823978 c:\users\feded\onedrive\documentos\facultad\algoritmos\6. modelo - arboles\modelo6\arbol.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1750823761 c:\users\feded\onedrive\documentos\facultad\algoritmos\6. modelo - arboles\modelo6\persona.h
+	"arbol.h"
+
+1750823834 source:c:\users\feded\onedrive\documentos\facultad\algoritmos\6. modelo - arboles\modelo6\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol.h"
+	"persona.h"
+

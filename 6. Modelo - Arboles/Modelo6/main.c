@@ -20,7 +20,7 @@ int main()
         printf("\nERROR AL ABRIR EL ARCHIVO");
         return 0;
     }
-    fwrite(personas,sizeof(persona), sizeof(personas) / sizeof(Persona), arch);
+    fwrite(personas,sizeof(Persona), sizeof(personas) / sizeof(Persona), arch);
 
     fclose(arch);
     crearArbol(&arbolPersonas);
@@ -37,16 +37,18 @@ int main()
         printf("\n3-Seleccione un DNI que desee eliminar");
         printf("\n4-Seleccione un nivel de nodo que desee eliminar");
         printf("\n5-Salir");
+        scanf("%d", &op);
 
         switch(op)
         {
         case 1:
+            cargarArbol(&arbolPersonas, "personas.dat");
             break;
         case 2:
+            recorrerEnOrden(&arbolPersonas,0,mostrarPersona);
             break;
         case 3:
-            break;
-        case 4:
+            eliminarDni(&arbolPersonas, 0);
             break;
         case 5:
             break;
