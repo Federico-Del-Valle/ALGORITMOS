@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1750873821 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\7. modelo - arbolesycola\modelo7\cola.c
+	"cola.h"
+
+1750873808 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\7. modelo - arbolesycola\modelo7\cola.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1750873901 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\7. modelo - arbolesycola\modelo7\persona.c
+	"persona.h"
+
+1750873760 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\7. modelo - arbolesycola\modelo7\persona.h
+	"arbol.h"
+	"cola.h"
+
+1750869683 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\7. modelo - arbolesycola\modelo7\arbol.h
+	<stdlib.h>
+	<string.h>
+
+1750873473 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\7. modelo - arbolesycola\modelo7\main.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
+	"arbol.h"
+	"cola.h"
+
+1750873488 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\7. modelo - arbolesycola\modelo7\arbol.c
+	"arbol.h"
+	"persona.h"
+
