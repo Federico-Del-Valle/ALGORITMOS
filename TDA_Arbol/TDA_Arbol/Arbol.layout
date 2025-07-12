@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="TDA_Arbol\TDA_Arbol.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6515" topLine="103" />
+		</Cursor>
+	</File>
+	<File name="TDA_Arbol\archs_gen.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1188" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="TDA_Arbol\TDA_Arbol_Ind.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13532" topLine="395" />
+		</Cursor>
+	</File>
+	<File name="TDA_Arbol\TDA_Arbol.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8851" topLine="36" />
+		</Cursor>
+		<Folding>
+			<Collapse line="6" />
+			<Collapse line="14" />
+			<Collapse line="65" />
+			<Collapse line="117" />
+			<Collapse line="161" />
+			<Collapse line="170" />
+			<Collapse line="175" />
+			<Collapse line="185" />
+			<Collapse line="190" />
+			<Collapse line="200" />
+			<Collapse line="205" />
+			<Collapse line="214" />
+			<Collapse line="219" />
+			<Collapse line="229" />
+			<Collapse line="234" />
+			<Collapse line="244" />
+			<Collapse line="253" />
+			<Collapse line="267" />
+			<Collapse line="281" />
+			<Collapse line="286" />
+		</Folding>
+	</File>
+	<File name="utilidades.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="846" topLine="9" />
+		</Cursor>
+		<Folding>
+			<Collapse line="6" />
+			<Collapse line="10" />
+			<Collapse line="15" />
+		</Folding>
+	</File>
+	<File name="TDA_Arbol\archs_gen.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1831" topLine="120" />
+		</Cursor>
+		<Folding>
+			<Collapse line="140" />
+			<Collapse line="181" />
+		</Folding>
+	</File>
+	<File name="TDA_Arbol\TDA_Arbol_Arch.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="171" topLine="93" />
+		</Cursor>
+	</File>
+	<File name="main.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="538" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="49" />
+		</Folding>
+	</File>
+	<File name="TDA_Arbol\TDA_Arbol_Ind.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="652" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="TDA_Arbol\TDA_Arbol_Arch.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3760" topLine="38" />
+		</Cursor>
+	</File>
+	<File name="utilidades.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1619" topLine="1" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

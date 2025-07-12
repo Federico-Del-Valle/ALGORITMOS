@@ -1,0 +1,175 @@
+# depslib dependency file v1.0
+1749597998 source:c:\users\usuario\desktop\algoritmos y estructuras de datos\arbol\arbol.c
+	"arbol.h"
+
+1749597610 c:\users\usuario\desktop\algoritmos y estructuras de datos\arbol\arbol.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1749598018 source:c:\users\usuario\desktop\algoritmos y estructuras de datos\arbol\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol.h"
+
+1750107921 source:c:\users\lauta\desktop\algoritmos y estructuras de datos\arbol\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol.h"
+
+1750104504 c:\users\lauta\desktop\algoritmos y estructuras de datos\arbol\arbol.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1750101607 source:c:\users\lauta\desktop\algoritmos y estructuras de datos\arbol\arbol.c
+	"arbol.h"
+
+1750127929 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\ejercicios\tda_arbol\arbol.c
+	"arbol.h"
+
+1750128879 z:\tiago\unidad-drive\universidad\borrador\algoritmos\ejercicios\tda_arbol\arbol.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1750128873 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\ejercicios\tda_arbol\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol.h"
+
+1751198076 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"TDA_Arbol/TDA_Arbol_Ind.h"
+	"utilidades.h"
+
+1751135415 z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\arbol.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1751126119 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\arbol.c
+	"arbol.h"
+
+1751119904 z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\funaux.h
+	<stdlib.h>
+
+1751119897 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\funaux.c
+	"funAux.h"
+	"arbol.h"
+	"arch.h"
+
+1751193659 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\arch.c
+	"arch.h"
+
+1751194371 z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\arch.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"arbol.h"
+
+1751198910 z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\utilidades.h
+	"TDA_Arbol/TDA_Arbol_Ind.h"
+
+1751198910 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\utilidades.c
+	"utilidades.h"
+
+1751126119 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol - copia\arbol.c
+	"arbol.h"
+
+1751135415 z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol - copia\arbol.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1751195827 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol - copia\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"TDA_Arbol/archs_gen.h"
+	"TDA_Arbol/TDA_Arbol.h"
+	"TDA_Arbol/TDA_Arbol_Arch.h"
+	"TDA_Arbol/TDA_Arbol_Ind.h"
+	"utilidades.h"
+
+1751195782 z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol - copia\arch.h
+
+1751195862 z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol - copia\utilidades.h
+	<stdlib.h>
+	"TDA_Arbol/TDA_Arbol_Ind.h"
+
+1751195837 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol - copia\utilidades.c
+	"utilidades.h"
+
+1751195664 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol - copia\arch.c
+
+1751195549 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol - copia\tda_arbol\tda_arbol.c
+	"TDA_Arbol.h"
+
+1751195576 z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol - copia\tda_arbol\tda_arbol.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1751195469 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol - copia\tda_arbol\tda_arbol_arch.c
+	"TDA_Arbol_Arch.h"
+
+1751195383 z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol - copia\tda_arbol\tda_arbol_arch.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"archs_gen.h"
+	"TDA_Arbol.h"
+
+1751195756 z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol - copia\tda_arbol\archs_gen.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"archs_gen.h"
+
+1751195767 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol - copia\tda_arbol\archs_gen.c
+	"archs_gen.h"
+
+1751195662 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol - copia\tda_arbol\tda_arbol_ind.c
+	"TDA_Arbol_Ind.h"
+
+1751195712 z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol - copia\tda_arbol\tda_arbol_ind.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"archs_gen.h"
+	"TDA_Arbol.h"
+	"TDA_Arbol_Arch.h"
+
+1751196175 z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\tda_arbol\archs_gen.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"archs_gen.h"
+
+1751196372 z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\tda_arbol\tda_arbol.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1751196722 z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\tda_arbol\tda_arbol_arch.h
+	"archs_gen.h"
+	"TDA_Arbol.h"
+
+1751199541 z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\tda_arbol\tda_arbol_ind.h
+	"TDA_Arbol_Arch.h"
+
+1751195767 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\tda_arbol\archs_gen.c
+	"archs_gen.h"
+
+1751195549 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\tda_arbol\tda_arbol.c
+	"TDA_Arbol.h"
+
+1751195469 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\tda_arbol\tda_arbol_arch.c
+	"TDA_Arbol_Arch.h"
+
+1751199301 source:z:\tiago\unidad-drive\universidad\borrador\algoritmos\tdas y ejercicios\tda_arbol\tda_arbol\tda_arbol_ind.c
+	"TDA_Arbol_Ind.h"
+
