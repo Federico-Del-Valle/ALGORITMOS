@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1750881059 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\8. modelo - mediciones\modelo8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
