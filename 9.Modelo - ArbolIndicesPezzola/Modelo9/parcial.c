@@ -1,6 +1,7 @@
 #include "parcial.h"
 
 
+
 //FUNCIONES ARBOLES
 
 void crearArbol(Arbol* arbol)

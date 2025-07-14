@@ -8,7 +8,7 @@ int main()
 
     Arbol arbolIndice;
     crearArbol(&arbolIndice);
-    cargarArbolDesordenado(&arbolIndice);
+    cargarArbolDesordenado(&arbolIndice, "alumnos.dat");
     int op;
     printf("Parcial\n");
 
