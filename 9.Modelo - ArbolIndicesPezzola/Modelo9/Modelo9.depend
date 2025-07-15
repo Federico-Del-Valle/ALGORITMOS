@@ -1,5 +1,14 @@
 # depslib dependency file v1.0
-1752422623 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\9.modelo - arbolindicespezzola\modelo9\main.c
+1752538352 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\9.modelo - arbolindicespezzola\modelo9\main.c
 	<stdio.h>
 	<stdlib.h>
+	"parcial.h"
+
+1752537868 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\9.modelo - arbolindicespezzola\modelo9\parcial.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1752538487 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\9.modelo - arbolindicespezzola\modelo9\parcial.c
+	"parcial.h"
 
