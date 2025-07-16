@@ -14,8 +14,8 @@ typedef struct
 }Producto;
 
 int cargarArbol(Arbol* , char[]);
-int darBaja(Arbol*, int, char[]);
-
-
+int darBaja(Arbol*, int, FILE *);
+int accionMostrar(void *, unsigned , unsigned , void*);
+void accionGrabarIndice(void* , unsigned , unsigned , void*);
 
 #endif // PARCIAL_H_INCLUDED

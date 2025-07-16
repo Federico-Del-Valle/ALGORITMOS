@@ -1,7 +1,25 @@
 # depslib dependency file v1.0
-1752547117 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\10.modelo\modelo10\main.c
+1752676003 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\10.modelo\modelo10\main.c
 	<stdio.h>
 	<stdlib.h>
+	"arbol.h"
+	"parcial.h"
 
-1752546866 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\10.modelo\modelo10\parcial.c
+1752675850 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\10.modelo\modelo10\parcial.c
+	"arbol.h"
+	"parcial.h"
+
+1752639210 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\10.modelo\modelo10\arbol.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1752675962 c:\users\administrador\documents\facultad\algoritmos\cursada_itu\10.modelo\modelo10\parcial.h
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"arbol.h"
+
+1752670263 source:c:\users\administrador\documents\facultad\algoritmos\cursada_itu\10.modelo\modelo10\arbol.c
+	"arbol.h"
 
