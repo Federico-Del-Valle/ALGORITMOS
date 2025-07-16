@@ -1,0 +1,6 @@
+#ifndef PARCIAL_H_INCLUDED
+#define PARCIAL_H_INCLUDED
+
+
+
+#endif // PARCIAL_H_INCLUDED

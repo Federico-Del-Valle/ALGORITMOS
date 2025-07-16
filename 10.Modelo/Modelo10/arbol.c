@@ -70,8 +70,9 @@ void vaciarArbol(Arbol* p)
     free((*p)->info);
     free(*p);
     *p = NULL;
-
 }
+
+
 int eliminarRaiz(Arbol* p)
 {
     nodoArbol** remp;

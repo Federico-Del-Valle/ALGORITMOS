@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1749677579 source:/home/erik-alvarez/Documents/Codeblocks/algoritmos/ArbolIndices/auxiliar.c
+	"datos.h"
+
+1749685174 /home/erik-alvarez/Documents/Codeblocks/algoritmos/ArbolIndices/datos.h
+	<stdio.h>
+	<stdlib.h>
+
+1750454788 source:/home/erik-alvarez/Documents/Codeblocks/algoritmos/ArbolIndices/IndiceABB.c
+	"datos.h"
+	"auxiliar.h"
+
+1749677488 /home/erik-alvarez/Documents/Codeblocks/algoritmos/ArbolIndices/auxiliar.h
+
+1750454827 source:/home/erik-alvarez/Documents/Codeblocks/algoritmos/ArbolIndices/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"datos.h"
+	"auxiliar.h"
+	"IndiceABB.h"
+
+1750454836 /home/erik-alvarez/Documents/Codeblocks/algoritmos/ArbolIndices/IndiceABB.h
+
