@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1752690231 source:d:\codeblocks\ayed\recuperatorioayed-16-07-2025\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utilitaria.h"
+	"lista.h"
+	"arbol_bin_busq.h"
+
+1752690222 d:\codeblocks\ayed\recuperatorioayed-16-07-2025\utilitaria.h
+	"tipos.h"
+
+1752277270 d:\codeblocks\ayed\recuperatorioayed-16-07-2025\tipos.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1750460157 d:\codeblocks\ayed\recuperatorioayed-16-07-2025\lista.h
+	"tipos.h"
+
+1750458919 d:\codeblocks\ayed\recuperatorioayed-16-07-2025\arbol_bin_busq.h
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1752277782 source:d:\codeblocks\ayed\recuperatorioayed-16-07-2025\utilitaria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tipos.h"
+
+1752716008 source:d:\recuperatorio\recuperatorioayed-16-07-2025\recuperatorioayed-16-07-2025\utilitaria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tipos.h"
+	"arbol_bin_busq.h"
+	"utilitaria.h"
+	<string.h>
+	"cola.h"
+
+1752277270 d:\recuperatorio\recuperatorioayed-16-07-2025\recuperatorioayed-16-07-2025\tipos.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1752714718 source:d:\recuperatorio\recuperatorioayed-16-07-2025\recuperatorioayed-16-07-2025\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utilitaria.h"
+	"lista.h"
+	"arbol_bin_busq.h"
+
+1752715372 d:\recuperatorio\recuperatorioayed-16-07-2025\recuperatorioayed-16-07-2025\utilitaria.h
+	"tipos.h"
+	"arbol_bin_busq.h"
+
+1750460157 d:\recuperatorio\recuperatorioayed-16-07-2025\recuperatorioayed-16-07-2025\lista.h
+	"tipos.h"
+
+1752715969 d:\recuperatorio\recuperatorioayed-16-07-2025\recuperatorioayed-16-07-2025\arbol_bin_busq.h
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1750459858 d:\recuperatorio\recuperatorioayed-16-07-2025\recuperatorioayed-16-07-2025\cola.h
+	"tipos.h"
+
